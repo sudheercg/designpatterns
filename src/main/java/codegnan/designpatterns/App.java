@@ -5,6 +5,6 @@ package codegnan.designpatterns;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Codeman!");
+        System.out.println("Hello Codeman , great man!");
     }
 }
