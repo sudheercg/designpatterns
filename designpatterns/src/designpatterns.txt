@@ -1,0 +1,67 @@
+A design pattern is a reusable solution to a commonly occuring problem in
+software design. 
+
+- It is a standard way of solving a problem that developers can follow. 
+
+- Design pattern is considered a best practice to solve
+  repeated design problems. 
+  
+  
+  Gang of four design patterns: Four architects have designed these
+  design  patterns.
+  
+  Three Categories of design patterns: 
+  
+  1. Creational patterns - Object creation  
+  	- Singleton pattern
+  	- Factory Method
+  	- Builder
+  	- Prototype
+  
+  2. Structural patterns - Structure of Object and class
+     - Adapter
+     -Bridge
+     -Composite
+     -Decorator
+     -Facade
+     -Proxy
+     
+  3. Behavioral patterns - Communication between objects.
+      - Observer 
+      - Strategy
+      - Iterator
+      - State
+      - Template method pattern 
+      
+   Singleton designpattern: 
+   -------------------------
+   Only one object/instance of a class must exist. 
+   eg: database connection
+   - loggers
+   
+   A singleton can be created: 
+   1. The class must have a private constructor
+      - IT prevenets new keyword usage outside the class
+   2. Class must have a static instance variable which is shared 
+      across the application
+   3. It must have a public method which returns an instance of the class,
+      We create a getInstance() method which returns the same object
+      everytime
+      
+    
+   Factory design pattern: 
+   ------------------------
+   - Instead of creating an object using new keyword,  we delegate
+     the object creation to a factory class.  
+   - Factory design pattern belongs to creational design pattern. 
+   
+   
+   Shape -  Interface - draw()
+   Rectangle class - implementing Shape
+   Circle class - implementing Shape
+  
+  Factory class: 
+    getShape(String shapeType) - returns the Shape object based on input 
+  
+  
+      
